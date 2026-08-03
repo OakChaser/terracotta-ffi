@@ -1,4 +1,7 @@
 /*
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ * Copyright (C) 2026 ConicMC contributors
+ *
  * terracotta.h — C ABI for conic-terracotta
  *
  * conic-terracotta is the optional multiplayer backend for Conic Launcher.
@@ -18,8 +21,6 @@
  *     be released with terracotta_free_string(). The terracotta_string.data
  *     is NUL-terminated; terracotta_string.len is the byte length excluding
  *     the NUL.
- *
- * SPDX-License-Identifier: AGPL-3.0-or-later
  */
 
 #ifndef CONIC_TERRACOTTA_TERRACOTTA_H

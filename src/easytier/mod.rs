@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 ConicMC contributors
+
 use crate::easytier::argument::{Argument, PortForward};
 use crate::session::ConnectionDifficulty;
 use std::net::Ipv4Addr;

@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 ConicMC contributors
+
 //! terracotta-client-test — guest example for conic-terracotta via the C ABI.
 //!
 //! Usage: terracotta-client-test <room_code>

@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 ConicMC contributors
+
 use sevenz_rust2::encoder_options::{EncoderOptions, LZMA2Options};
 use sevenz_rust2::{ArchiveEntry, EncoderConfiguration, EncoderMethod, SourceReader};
 use std::io::{self, Cursor, Read};

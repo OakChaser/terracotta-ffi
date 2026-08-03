@@ -363,9 +363,11 @@ C ABI，不依赖 crate 内部 API）：
 
 ## 致谢
 
-Conic Terracotta 基于并受到了原 [陶瓦（Terracotta）](https://github.com/burningtnt/Terracotta) 项目的启发。原项目为本项目提供了重要参考，包括房间协议设计、局域网联机流程以及整体实现思路。
+Conic Terracotta 是原 [陶瓦（Terracotta）](https://github.com/burningtnt/Terracotta)（作者 burningtnt，[AGPL-3.0-or-later 许可](https://www.gnu.org/licenses/agpl-3.0.html)）的**派生与移植作品**：房间码协议、scaffolding 网络协议、局域网联机状态机、EasyTier 参数/公共节点等大量代码直接移植自原项目，而非仅受其启发。
 
-感谢陶瓦项目的作者和贡献者为 Minecraft 联机社区所做的工作，以及他们向社区开放这一项目。
+原项目版权归 burningtnt 及其贡献者所有，本仓库以 `THIRD_PARTY_LICENSE` 附上其完整许可文本，并在所有直接移植的源文件头部保留了来源与版权归属说明。依照 AGPL 第 5 节要求，本作品在显著位置标注了上述修改与来源，并继续以 AGPL 许可分发。
+
+感谢陶瓦项目的作者和贡献者为 Minecraft 联机社区所做的工作，以及他们以自由软件许可向社区开放这一项目。
 
 本项目同时使用 [EasyTier](https://github.com/EasyTier/EasyTier/) 作为底层虚拟网络方案。感谢 EasyTier 的作者和贡献者提供了稳定的点对点网络能力，使跨网络 Minecraft 局域网联机成为可能。
 

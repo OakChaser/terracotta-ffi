@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 ConicMC contributors
+
 //! Complete C ABI bindings for `libconic_terracotta` (see include/terracotta.h).
 //!
 //! This mirrors the header exactly. No conic-terracotta Rust types are used;

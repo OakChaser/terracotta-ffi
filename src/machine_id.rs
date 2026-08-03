@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 ConicMC contributors
+
 use rand_core::{OsRng, TryRngCore};
 use std::fs::OpenOptions;
 use std::io::{Read, Seek, SeekFrom, Write};

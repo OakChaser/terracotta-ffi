@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 ConicMC contributors
+//
+// Ported from burningtnt/Terracotta (https://github.com/burningtnt/Terracotta).
+// Original copyright (c) burningtnt.
+// Licensed under AGPL-3.0-or-later. See THIRD_PARTY_LICENSE.
+
 use crate::context::{ContextConfig, Emitter};
 use crate::easytier::argument::{Argument, PortForward, Proto};
 use crate::easytier::publics::fetch_public_nodes;

@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 ConicMC contributors
+//
+// Ported from burningtnt/Terracotta (https://github.com/burningtnt/Terracotta).
+// Original copyright (c) burningtnt.
+// Licensed under AGPL-3.0-or-later. See THIRD_PARTY_LICENSE.
+
 use std::net::{IpAddr, Ipv4Addr, Ipv6Addr, SocketAddr, UdpSocket};
 use std::sync::mpsc::{self, Receiver, Sender};
 use std::{io, thread};

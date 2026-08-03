@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 ConicMC contributors
+
 //! C ABI for Conic Launcher. See include/terracotta.h for the contract.
 //!
 //! The handle is a stable pointer to a `HandleRecord` which owns an

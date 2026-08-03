@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 ConicMC contributors
+
 use crate::profile::Profile;
 use crate::session::{ConnectionDifficulty, SessionStateId};
 use serde_json::Value;

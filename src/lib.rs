@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 ConicMC contributors
+//
+// Ported from burningtnt/Terracotta (https://github.com/burningtnt/Terracotta).
+// Original copyright (c) burningtnt.
+// Licensed under AGPL-3.0-or-later. See THIRD_PARTY_LICENSE.
+
 #![allow(dead_code)]
 
 #[macro_export]
@@ -25,7 +32,7 @@ mod scaffolding;
 mod session;
 mod snapshot;
 
-pub const MOTD: &str = "§6§l双击进入陶瓦联机大厅（请保持陶瓦运行）";
+pub const MOTD: &str = "§w§lConic Connect";
 
 pub static VENDOR: &str = concat!(
     "Conic Terracotta ",
