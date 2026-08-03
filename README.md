@@ -1,7 +1,9 @@
-# conic-terracotta
+# Conic Terracotta
 
 > [!NOTE]
-> 本项目所有代码均由 AI 编写，包括此 README.md 文件，但这句话是我自己写的（笑）
+> 本项目所有代码均由 AI 编写，包括此 README.md 文件，但这段话是我自己写的（笑）
+>
+> 如果你在寻找原版陶瓦联机项目，请前往  [burningtnt/Terracotta](https://github.com/burningtnt/Terracotta)
 
 Terracotta 联机核心的 C ABI 封装，面向 Conic Launcher 提供的**联机动态库**。
 
@@ -358,3 +360,13 @@ C ABI，不依赖 crate 内部 API）：
 | `examples/terracotta-client-test` | 客户端：加入指定房间、输出连接过程 | `cd examples/terracotta-client-test && cargo run --release -- U/XXXX-XXXX-XXXX-XXXX` |
 
 详见各示例目录下的 `README.md`。
+
+## 致谢
+
+Conic Terracotta 基于并受到了原 [陶瓦（Terracotta）](https://github.com/burningtnt/Terracotta) 项目的启发。原项目为本项目提供了重要参考，包括房间协议设计、局域网联机流程以及整体实现思路。
+
+感谢陶瓦项目的作者和贡献者为 Minecraft 联机社区所做的工作，以及他们向社区开放这一项目。
+
+本项目同时使用 [EasyTier](https://github.com/EasyTier/EasyTier/) 作为底层虚拟网络方案。感谢 EasyTier 的作者和贡献者提供了稳定的点对点网络能力，使跨网络 Minecraft 局域网联机成为可能。
+
+Conic Terracotta 是一个独立项目，与原陶瓦项目及其作者不存在隶属、维护或官方合作关系。
