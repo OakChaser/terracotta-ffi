@@ -1,0 +1,12 @@
+[package]
+name = "terracotta-client-test"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+libloading = "0.8"
+
+[[bin]]
+name = "terracotta-client-test"
+path = "src/main.rs"

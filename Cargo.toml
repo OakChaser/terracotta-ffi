@@ -1,0 +1,34 @@
+[package]
+name = "conic-terracotta"
+version = "0.1.0"
+edition = "2024"
+license = "AGPL-3.0-or-later"
+description = "Terracotta-compatible multiplayer backend for Conic Launcher"
+build = "build.rs"
+
+[package.metadata.easytier]
+version = "v2.6.4"
+
+# cdylib is the shipped artifact (DLL/so/dylib). "rlib" is added solely so
+# `cargo test` can compile an internal unit-test harness; it does not affect
+# the published dynamic library.
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+cfg-if = "1"
+hex = "0.4"
+local-ip-address = "0.6"
+parking_lot = "0.12"
+rand_core = { version = "0.9", features = ["os_rng"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sevenz-rust2 = { version = "0.18", default-features = false, features = ["util"] }
+socket2 = "0.6"
+tokio = { version = "1", features = ["rt-multi-thread", "time", "sync"] }
+
+[build-dependencies]
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "charset", "http2", "system-proxy", "blocking", "zstd"] }
+sevenz-rust2 = { version = "0.18", default-features = false, features = ["compress", "util"] }
+toml = "0.9"
+zip = "4.3"
