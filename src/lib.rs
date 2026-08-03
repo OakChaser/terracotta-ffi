@@ -35,7 +35,7 @@ mod snapshot;
 pub const MOTD: &str = "§w§lConic Connect";
 
 pub static VENDOR: &str = concat!(
-    "Conic Terracotta ",
+    "Conic Connect ",
     env!("TERRACOTTA_VERSION"),
     ", EasyTier ",
     env!("TERRACOTTA_ET_VERSION")
