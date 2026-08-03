@@ -32,3 +32,13 @@ reqwest = { version = "0.12", default-features = false, features = ["rustls-tls"
 sevenz-rust2 = { version = "0.18", default-features = false, features = ["compress", "util"] }
 toml = "0.9"
 zip = "4.3"
+
+[profile.dev]
+incremental = true
+
+[profile.release]
+panic = "abort"
+codegen-units = 1
+lto = true
+opt-level = "z"
+strip = true
