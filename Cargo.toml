@@ -1,9 +1,8 @@
 [package]
-name = "conic-terracotta"
+name = "terracotta-ffi"
 version = "0.1.0"
 edition = "2024"
 license = "AGPL-3.0-or-later"
-description = "Terracotta-compatible multiplayer backend for Conic Launcher"
 build = "build.rs"
 
 [package.metadata.easytier]
