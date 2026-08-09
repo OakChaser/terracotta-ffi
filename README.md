@@ -1,4 +1,4 @@
-# Conic Terracotta
+# Terracotta ffi
 
 > [!NOTE]
 > 本项目所有代码均由 AI 编写，包括此 README.md 文件，但这段话是我自己写的（笑）
@@ -363,7 +363,7 @@ C ABI，不依赖 crate 内部 API）：
 
 ## 致谢
 
-Conic Terracotta 是原 [陶瓦（Terracotta）](https://github.com/burningtnt/Terracotta)（作者 burningtnt，[AGPL-3.0-or-later 许可](https://www.gnu.org/licenses/agpl-3.0.html)）的**派生与移植作品**：房间码协议、scaffolding 网络协议、局域网联机状态机、EasyTier 参数/公共节点等大量代码直接移植自原项目，而非仅受其启发。
+Terracotta ffi 是原 [陶瓦（Terracotta）](https://github.com/burningtnt/Terracotta)（作者 burningtnt，[AGPL-3.0-or-later 许可](https://www.gnu.org/licenses/agpl-3.0.html)）的**派生与移植作品**：房间码协议、scaffolding 网络协议、局域网联机状态机、EasyTier 参数/公共节点等大量代码直接移植自原项目，而非仅受其启发。
 
 原项目版权归 burningtnt 及其贡献者所有，本仓库以 `THIRD_PARTY_LICENSE` 附上其完整许可文本，并在所有直接移植的源文件头部保留了来源与版权归属说明。依照 AGPL 第 5 节要求，本作品在显著位置标注了上述修改与来源，并继续以 AGPL 许可分发。
 
